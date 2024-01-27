@@ -46,9 +46,16 @@ function checkWinner() {
 
 function announceWinner(winner) {
     gameActive = false;
-    winnerMessage.textContent = winner + ' wins!';
+
+    if (winner === 'It\'s a tie!') {
+        winnerMessage.textContent = winner;
+    } else {
+        winnerMessage.textContent = winner + ' wins!';
+    }
+
     winnerPopup.style.display = 'block';
 }
+
 
 function startNewGame() {
     currentPlayer = 'X';
