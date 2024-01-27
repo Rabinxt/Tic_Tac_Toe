@@ -43,10 +43,13 @@ function checkWinner() {
         announceWinner('It\'s a tie!');
     }
 }
-
 function announceWinner(winner) {
     gameActive = false;
-    winnerMessage.textContent = winner + ' wins!';
+    if (winner === 'It\'s a tie!') {
+        winnerMessage.textContent = 'It\'s a tie!';
+    } else {
+        winnerMessage.textContent = winner + ' wins!';
+    }
     winnerPopup.style.display = 'block';
 }
 
