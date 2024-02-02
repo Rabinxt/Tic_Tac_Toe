@@ -23,7 +23,7 @@ To get started with the Tic-Tac-Toe game, follow these simple steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe.git
+   https://github.com/Rabinxt/Tic_Tac_Toe
    ```
 
 2. Open the `index.html` file in your preferred web browser.
