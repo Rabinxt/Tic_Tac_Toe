@@ -70,4 +70,4 @@ We welcome contributions and appreciate your time and effort in improving the ga
 
 ## License
 
-This Tic-Tac-Toe game is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as needed. Have fun playing!
+This Tic-Tac-Toe game is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as needed. Have fun playing! Thank you !
